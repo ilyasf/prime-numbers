@@ -1,0 +1,11 @@
+[dependencies]
+rand = "0.8.4"
+
+[package]
+name = "prime-numbers-test"
+version = "0.1.0"
+edition = "2018"
+
+[[bin]]
+name = "prime-numbers-test"
+path = "prime-numbers-test.rs"
